@@ -330,8 +330,8 @@ a {
     margin-top: 1rem;
   }
   .page-container {
-    background-position: top;
-    background-size: cover;
+    background-color: #fff;
+    height: auto;
   }
   .team__cards {
     padding: 50px 0;
@@ -345,6 +345,8 @@ a {
     height: 270px;
   }
   .hero {
+    background-image: url('../images/fondoTorneo01.jpg');
+    background-size: cover;
     height: 100vh;
     padding: 6rem 0;
   }
@@ -353,6 +355,6 @@ a {
     padding: 1% 0;
   }
   .team {
-    padding: 10rem 10;
+    background-image: url('../images/fondoTorneo02.jpg');
   }
 }
